@@ -23,6 +23,11 @@ Added Vue.js CDN in index.html file to use Vue.js without creating Vue Applicati
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 ```
 
+## Project setup
+```
+npm install
+```
+
 To run the project:
 ```bash
 npm run serve
