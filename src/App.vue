@@ -9,6 +9,7 @@
     />
   </ul> -->
   <div>
+    <TheHeader title="Remember Me"/>
     <StoredResources :resources="storedResources"/>
   </div>
   
@@ -16,10 +17,12 @@
 
 <script>
 // import LearningResource from './components/learning-resources/LearningResource.vue';
+import TheHeader from './components/layouts/TheHeader.vue';
 import StoredResources from './components/learning-resources/StoredResources.vue';
 export default {
   components: {
     // LearningResource,
+    TheHeader,
     StoredResources
   },
   data() {
