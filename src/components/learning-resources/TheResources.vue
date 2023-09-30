@@ -12,7 +12,7 @@
         >Add Resource</base-button
       >
     </base-card>
-    <component :is="selectedTab"></component>
+    <component :is="selectedTab" :resources="storedResources"></component>
   </div>
 </template>
 
@@ -44,11 +44,11 @@ export default {
       ],
     };
   },
-  provide() {
-    return {
-      resources: this.storedResources,
-    };
-  },
+  // provide() {
+  //   return {
+  //     resources: this.storedResources,
+  //   };
+  // },
   computed: {
     storedResButtonMode() {
       return this.selectedTab === 'stored-resources' ? null : 'flat';
