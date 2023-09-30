@@ -10,38 +10,24 @@
   </ul> -->
   <div>
     <TheHeader title="Remember Me" />
-    <StoredResources :resources="storedResources" />
+    <!-- <StoredResources :resources="storedResources" /> -->
+    <TheResources/> 
   </div>
 </template>
 
 <script>
 // import LearningResource from './components/learning-resources/LearningResource.vue';
 import TheHeader from './components/layouts/TheHeader.vue';
-import StoredResources from './components/learning-resources/StoredResources.vue';
+// import StoredResources from './components/learning-resources/StoredResources.vue';
+import TheResources from './components/learning-resources/TheResources.vue';
+
 export default {
   components: {
     // LearningResource,
     TheHeader,
-    StoredResources,
-  },
-  data() {
-    return {
-      storedResources: [
-        {
-          id: 'official-guide',
-          title: 'Official Guide',
-          description: 'The official Vue.js documentation.',
-          link: 'https://vuejs.org/',
-        },
-        {
-          id: 'google',
-          title: 'Google',
-          description: 'Learn more about google.',
-          link: 'https://google.org/',
-        },
-      ],
-    };
-  },
+    // StoredResources,
+    TheResources 
+  }
 };
 </script>
 
