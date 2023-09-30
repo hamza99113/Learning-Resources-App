@@ -9,10 +9,9 @@
     />
   </ul> -->
   <div>
-    <TheHeader title="Remember Me"/>
-    <StoredResources :resources="storedResources"/>
+    <TheHeader title="Remember Me" />
+    <StoredResources :resources="storedResources" />
   </div>
-  
 </template>
 
 <script>
@@ -23,7 +22,7 @@ export default {
   components: {
     // LearningResource,
     TheHeader,
-    StoredResources
+    StoredResources,
   },
   data() {
     return {
@@ -45,7 +44,6 @@ export default {
   },
 };
 </script>
-
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
