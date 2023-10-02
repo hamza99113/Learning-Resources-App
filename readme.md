@@ -3,7 +3,8 @@
 ### Udemy Course: [Vue - The Complete Guide (incl. Router & Composition API)](https://www.udemy.com/course/vuejs-2-the-complete-guide/)
 
 # Screenshot
-<img src="./images/screen.png" />
+<img src="./images/screen1.png" />
+<img src="./images/screen2.png" />
 
 
 ## Languages and Technologies used in this project.
